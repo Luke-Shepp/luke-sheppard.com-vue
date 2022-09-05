@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(35, 74, 82);
+    transition: color .25s ease-out;
+    transition: fill .25s ease-out;
+}
+
+body {
+    background-color: #0f0f38;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.links, .link {
+    display: flex;
+}
+
+.links {
+    margin-top: 50px;
+}
+
+.link {
+    padding: 0 15px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.link:first-of-type {
+    padding-left: 0;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link:hover .hover-fill {
+    fill: #0077B5;
+}
+
+.link:hover p {
+    color: #0077B5;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    body {
+        margin: 13% 5%;
+    }
+}
+
+.developer::before {
+    content: '👨‍💻';
+    margin-right: 0.5rem;
+}
