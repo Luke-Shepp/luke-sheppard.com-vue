@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-row transition-all ease-in-out" :class="{ 'pl-[20vw]': sidebarOpen }">
+    <div class="flex flex-row transition-all ease-in-out" :class="{ 'pl-[40vw] sm:pl-[30vw] md:pl-[20vw]': sidebarOpen }">
         <Sidebar :open="sidebarOpen" />
 
         <div>
