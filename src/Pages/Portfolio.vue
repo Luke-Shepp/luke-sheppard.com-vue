@@ -9,10 +9,11 @@
         Previous clients include;
 
         <ul class="list-disc ml-4 mt-5">
+            <li>Shade Ltd (Shade Station, Total Watches)</li>
             <li>Pearson Education</li>
             <li>Brand Machine Group</li>
-            <li>Venditan</li>
-            <li>Internet Fusion (Surfdome, Country Attire, Blackleaf, Derby House)</li>
+            <li>Venditan Commerce</li>
+            <li>Internet Fusion Group (Surfdome, Country Attire, Blackleaf, Derby House)</li>
         </ul>
     </Page>
 </template>
