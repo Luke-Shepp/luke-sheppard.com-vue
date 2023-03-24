@@ -9,6 +9,7 @@
         Previous clients include;
 
         <ul class="list-disc ml-4 mt-5">
+            <li>Cyber-Duck</li>
             <li>Shade Ltd (Shade Station, Total Watches)</li>
             <li>Pearson Education</li>
             <li>Brand Machine Group</li>
